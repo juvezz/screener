@@ -1,0 +1,4 @@
+symbol,region,country,name,exchange,source,updated_at
+BABA,china_adr,us,Alibaba Group Holding Limited,NYQ,yahoo:validated-curated-list,2026-11-11T18:19:47.730099+00:00
+JD,china_adr,us,"JD.com, Inc.",NMS,yahoo:validated-curated-list,2026-11-11T18:19:48.499045+00:00
+PDD,china_adr,us,PDD Holdings Inc.,NMS,yahoo:validated-curated-list,2026-11-11T18:19:49.227711+00:00

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "global-fundamental-screener"
+version = "0.1.0"
+description = "Fundamental stock screener for US, European and Chinese listings"
+requires-python = ">=3.10"
+dependencies = ["yfinance>=0.2.66,<2", "requests>=2.31,<3"]
+
+[project.optional-dependencies]
+web = ["streamlit>=1.52,<2"]
+
+[project.scripts]
+screener = "main:main"
+update-universes = "update_universes:main"
+refresh-market-data = "refresh_data:main"
+
+[tool.setuptools]
+py-modules = ["main", "models", "provider", "catalog", "market_data", "refresh_data", "screening", "streamlit_app", "update_universes"]
+
+[tool.setuptools.data-files]
+"share/global-fundamental-screener/universes" = ["universes/*.csv", "universes/README.md"]

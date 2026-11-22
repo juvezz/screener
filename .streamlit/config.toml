@@ -1,0 +1,12 @@
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "light"
+primaryColor = "#09665b"
+backgroundColor = "#fcfdfd"
+secondaryBackgroundColor = "#edf3f4"
+textColor = "#142d38"
+borderColor = "#d5e4e4"
+dataframeHeaderBackgroundColor = "#e4efef"
+font = "sans serif"

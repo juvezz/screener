@@ -205,6 +205,10 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Local screener output
+output/
+universes/.backups/
+
 # Ruff stuff:
 .ruff_cache/
 

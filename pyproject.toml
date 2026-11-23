@@ -21,4 +21,4 @@ refresh-market-data = "refresh_data:main"
 py-modules = ["main", "models", "provider", "catalog", "market_data", "refresh_data", "screening", "streamlit_app", "update_universes"]
 
 [tool.setuptools.data-files]
-"share/global-fundamental-screener/universes" = ["universes/*.csv", "universes/README.md"]
+"share/global-fundamental-screener/universes" = ["universes/usa.csv", "universes/README.md"]

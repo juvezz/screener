@@ -21,6 +21,8 @@ python -m streamlit run streamlit_app.py
 
 Open `http://localhost:8501` and choose a market or **All markets**. Optionally enter tickers such as `AAPL`, then click **Show data**.
 
+A fresh checkout includes the US ticker catalog. To use other markets, add local CSV catalogs from an authorized source. See the [catalog setup](universes/README.md).
+
 Use **Previous**, **Next**, or the page number to navigate results. **Rows per page** controls the page size. **Sort all results by** sorts the filtered results across pages. The CSV includes every filtered row.
 
 The table shows a separate price currency when it differs from the listing currency. Use the table's column menu or download the CSV to see the quote timestamp and currency.

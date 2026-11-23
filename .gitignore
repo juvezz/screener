@@ -208,6 +208,8 @@ tempCodeRunnerFile.py
 # Local screener output
 output/
 universes/.backups/
+/universes/*.csv
+!/universes/usa.csv
 
 # Ruff stuff:
 .ruff_cache/

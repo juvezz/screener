@@ -4,6 +4,10 @@ Files are grouped by **the country where the exchange is located**. Hong Kong
 is treated as a separate market. You can edit the CSV files manually. The next
 refresh will replace the catalog for the corresponding country.
 
+The repository and install package include the US catalog. Yahoo-sourced CSVs
+are local files. Add them to this directory only if you have permission to use
+the data. Git and the install package exclude these local catalogs.
+
 | File | Code | Exchanges included in automatic updates |
 | --- | --- | --- |
 | usa.csv | us | NYSE, Nasdaq (NMS/NGM/NCM), NYSE American |
